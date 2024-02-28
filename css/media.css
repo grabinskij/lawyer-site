@@ -125,6 +125,13 @@
     }
 }
 
+@media(max-width: 767px){
+    .terms-box{
+      display: block;
+      margin-bottom: 100px;
+    }
+  }
+
 @media(max-width: 700px){
     .header__btn{
         float: none;
@@ -203,6 +210,27 @@
     }
     .news__slider-inner .slick-btn{
         bottom: -90px;
+    }
+    .terms-container {
+        padding: 0 10px 0 20px;
+    }
+       
+    .terms-container h1 {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .terms-container h2{
+        font-size: 1.4rem;
+     }
+    .terms-container h4{
+        font-size: 1rem;
+     }
+    .terms-container p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .home-button{
+        margin-bottom: 50px;
     }
 }
 @media(max-width: 414px){
