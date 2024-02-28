@@ -40,6 +40,7 @@
     }
 }
 
+
 @media(max-width: 1050px){
     .footer__inner{
         display: block;
@@ -48,6 +49,8 @@
         min-width: 100%;
     }
 }
+
+
 @media(max-width: 900px){
     .slider .slick-btn{
         display: none !important;
@@ -182,6 +185,7 @@
         padding-left: 0;
     }
 }
+
 @media(max-width: 594px){
     .services__item{
         max-width: 100%;
@@ -242,6 +246,7 @@
     }
 }
 
+
 @media(max-width: 400px){
     .header__btn:before{
         display: block;
@@ -254,6 +259,8 @@
        margin-right: 15px;
     }
 }
+
+
 @media(max-width: 390px){
     .header__email{
         padding-right: 30px;
@@ -262,6 +269,7 @@
         min-height: 190px;
     }
 }
+
 
 @media(min-width: 701px){
     .menu ul{
