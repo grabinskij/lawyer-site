@@ -16,3 +16,25 @@ $ (function(){
 
 
 });
+
+
+window.addEventListener('DOMContentLoaded', () => {
+
+const cookieGermanBtn = document.getElementById('cookieGermanBtn');
+const cookieEnglishBtn = document.getElementById('cookieEnglishBtn');
+const cookieEnglish = document.getElementById('cookieEnglish');
+const cookieGerman = document.getElementById('cookieGerman');
+
+
+
+cookieGermanBtn.addEventListener('click', () => {
+    cookieEnglish.style.display = 'block';
+    cookieGerman.style.display = 'none';
+  });
+
+  cookieEnglishBtn.addEventListener('click', () => {
+    cookieGerman.style.display = 'block';
+    cookieEnglish.style.display = 'none';
+  });
+
+});

@@ -1061,3 +1061,39 @@ left: auto;
   color: #fff;
 }
 
+.google-map img{
+    display: none;
+    height: 270px;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.change-consent-banner{
+    display: none;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 9999;
+}
+.change-consent-banner button{
+    padding: 0;
+    border-radius: 50%;
+    background-color: #fbac53;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change-consent-banner button:hover{
+    background-color: #4B0082;
+}
+.custom-cookie-svg{
+    width: 36px;
+    height: 36px;
+    fill: rgba(0, 0, 0, 1);
+}
+
+.change-consent-banner button:hover .custom-cookie-svg {
+    fill: #fbac53;
+}
