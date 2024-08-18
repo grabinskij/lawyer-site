@@ -1,6 +1,6 @@
 # ⚖️ Lawyer Service Landing Page
 
-Welcome to the Lawyer Service Landing Page repository! This project features a modern and professional landing page designed for legal services. It is built using HTML, CSS, JavaScript, and jQuery to provide a seamless and engaging user experience.
+Welcome to the **Lawyer Service Landing Page** repository! This project features a modern and professional landing page designed for legal services. It is built using HTML, CSS, JavaScript, and jQuery to provide a seamless and engaging user experience.
 
 <br>
 
